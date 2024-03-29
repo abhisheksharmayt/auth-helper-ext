@@ -1,0 +1,88 @@
+main {
+  width: 300px;
+  height: 300px;
+  padding: 8px;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.heading {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#parent {
+  padding-top: 8px;
+  overflow-y: auto;
+  width: 100%;
+  padding-bottom: 20px;
+}
+.auth-parent {
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #99999946;
+  border-radius: 6px;
+  margin: 4px 0;
+}
+.title {
+  font-size: 14px;
+  font-weight: 400;
+}
+.right-side-wrapper {
+  display: flex;
+  gap: 8px;
+}
+.primary-btn {
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 0;
+  background-color: #40a9ff;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.delete-btn {
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 0;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #ff6366d7;
+}
+
+.delete-btn:hover {
+  background-color: #ff6365;
+}
+
+.primary-btn:hover {
+  background-color: #1890ff;
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.edit-svg {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+}

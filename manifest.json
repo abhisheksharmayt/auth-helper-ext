@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Convin Auth Helper",
+  "description": "Helps in authentication different domains.",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "assets/logo.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": ["https://*.convin.ai/*", "http://*.localhost:3000/*"]
+    }
+  ],
+  "permissions": ["nativeMessaging", "tabs"]
+}
